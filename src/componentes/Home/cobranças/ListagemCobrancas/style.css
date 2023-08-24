@@ -1,0 +1,183 @@
+.container-pagina-cobrancas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 3rem;
+  width: 100%;
+  min-height: 76vh;
+}
+
+.menu-de-cobrancas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 86%;
+  height: 4rem;
+}
+
+.titulo-cobrancas {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+  width: 30%;
+}
+
+.titulo-cobrancas img {
+  width: 3.2rem;
+}
+
+.titulo-cobrancas h2 {
+  font-family: var(--font-montserrat);
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  letter-spacing: 0em;
+
+  color: var(--cor-cinza-2);
+}
+
+.caixa-de-pesquisa-e-filtro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 39.4%;
+  height: 100%;
+}
+
+.caixa-do-menu-de-cobrancas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 62%;
+  height: 100%;
+}
+
+.botao-do-filtro-do-menu-de-cobrancas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 10%;
+}
+
+.botao-do-filtro-do-menu-de-cobrancas img {
+  transition: border-style 0.1s, border-width 0.1s, border-color 0.1s;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.botao-do-filtro-do-menu-de-cobrancas img:hover {
+  border-color: var(--cor-rosa-claro);
+  border-width: 3px;
+  border-style: solid;
+}
+
+.input-de-pesquisa-do-menu-de-cobrancas {
+  position: relative;
+  height: 100%;
+  width: 87.2%;
+}
+
+.input-de-pesquisa-do-menu-de-cobrancas input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  box-shadow: 0.2rem 0.8rem 0.5rem var(--cor-shadow-box);
+
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0px;
+
+  color: var(--cor-cinza-3);
+}
+
+.input-de-pesquisa-do-menu-de-cobrancas img {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.tabela-de-cobrancas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 88%;
+  height: 100%;
+  min-height: 67.8vh;
+  border-radius: 2rem;
+  padding: 1rem 0;
+
+  font-family: var(--font-nunito);
+  line-height: 7rem;
+  letter-spacing: 0.005em;
+
+  background-color: #ffffff;
+}
+
+.cabecalho-da-tabela-de-cobrancas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.cabecalho-da-tabela-de-cobrancas {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.cabecalho-da-tabela-de-cobrancas th {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho-da-tabela-de-cobrancas img {
+  height: 50%;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.cabecalho-da-tabela-de-cobrancas img:hover {
+  transform: scale(1.3);
+}
+
+.valor-titulo {
+  padding-left: 1rem;
+}
+
+.titulo-status-cobranca {
+  padding-left: 2rem;
+}
+
+.colunas-da-tabela-de-cobrancas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 95%;
+  height: 7rem;
+}
+
+.corpo-da-tabela-de-cobrancas {
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 83%;
+}
+
+.feedback-erro-pesquisa-cobranca {
+  max-height: 34rem;
+  margin: auto;
+}

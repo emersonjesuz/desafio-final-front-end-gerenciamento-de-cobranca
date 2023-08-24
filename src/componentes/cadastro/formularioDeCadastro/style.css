@@ -1,0 +1,140 @@
+.caixa-do-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.titulo-do-formulario-do-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+}
+
+.titulo-do-formulario-do-cadastro h1 {
+  font-family: var(--font-montserrat);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.1rem;
+  letter-spacing: 0em;
+  color: var(--cor-cinza-1);
+}
+
+.inputs-do-formulario-do-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.inputs-do-formulario-do-cadastro div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+
+  width: 100%;
+  height: 10rem;
+}
+
+.inputs-do-formulario-do-cadastro div label {
+  font-family: var(--font-nunito);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--cor-cinza-1);
+}
+
+.inputs-do-formulario-do-cadastro div input {
+  width: 100%;
+  height: 4.4rem;
+  padding-left: 1rem;
+  border: 0.1rem solid var(--cor-apoio-petroleo-desbotado);
+  border-radius: 0.5rem;
+}
+
+.caixa-do-input-cadastro {
+  position: relative;
+  height: 4.4rem;
+}
+
+.caixa-do-input-cadastro img {
+  position: absolute;
+  right: 1rem;
+
+  cursor: pointer;
+  height: 2.5rem;
+  opacity: 0.5;
+}
+
+.mensagem-de-erro-do-input {
+  color: var(--cor-feedback-erro);
+
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.botoes-do-formulario-do-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  height: 9rem;
+  margin-top: 3rem;
+}
+
+.botoes-do-formulario-do-cadastro button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 3.3rem;
+  transition: opacity 0.2s;
+
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0px;
+  text-align: left;
+
+  border-radius: 1rem;
+  border: none;
+
+  background-color: var(--cor-rosa);
+  color: var(--cor-cinza-8);
+}
+
+.botoes-do-formulario-do-cadastro button:hover {
+  opacity: 0.7;
+}
+
+.botoes-do-formulario-do-cadastro p {
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.botoes-do-formulario-do-cadastro p a {
+  color: var(--cor-rosa);
+  text-decoration: none;
+  cursor: pointer;
+}

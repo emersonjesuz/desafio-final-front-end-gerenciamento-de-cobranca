@@ -1,0 +1,104 @@
+.cabecalho {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  width: 83vw;
+  height: 10rem;
+  padding: 0 2.4rem;
+  z-index: 1;
+
+  background: var(--cor-cinza-8);
+}
+
+.cabecalho-home {
+  text-align: center;
+  font-family: var(--font-montserrat);
+  font-style: normal;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  letter-spacing: 0em;
+
+  color: var(--cor-cinza-1);
+}
+
+.cabecalho-clientes,
+.cabecalho-cobrancas {
+  display: flex;
+
+  align-self: self-end;
+
+  gap: 2rem;
+  width: 40%;
+  margin-bottom: 1rem;
+
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+
+  color: var(--cor-verde);
+}
+
+.cabecalho-detalhar-cliente {
+  display: flex;
+  gap: 2rem;
+  color: var(--cor-cinza-3);
+}
+
+.campo-usuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 16%;
+}
+
+.imagem-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+
+  font-family: var(--font-nunito);
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  background-color: var(--cor-cinza-6);
+  color: var(--cor-verde);
+}
+
+.nome-usuario {
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  color: var(--cor-verde);
+}
+
+.caixa-do-botao-opcoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 4rem;
+}
+
+.opcoes-usuario {
+  border: none;
+  cursor: pointer;
+
+  background-color: transparent;
+}

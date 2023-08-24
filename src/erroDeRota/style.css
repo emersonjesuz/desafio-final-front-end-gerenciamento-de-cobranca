@@ -1,0 +1,57 @@
+.container {
+  background-image: linear-gradient(to bottom right,
+      var(--cor-cinza-4),
+      var(--cor-rosa));
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+
+  text-align: center;
+  font-family: var(--font-montserrat);
+}
+
+.caixa-da-rota-de-erro h1 {
+  font-size: 20rem;
+  margin: 0 0 0.5em;
+  line-height: 10px;
+}
+
+.caixa-da-rota-de-erro p {
+  font-size: 4rem;
+}
+
+.caixa-da-rota-de-erro small {
+  font-size: 2.5rem;
+  line-height: 6.125rem;
+  opacity: 0.5;
+
+  -webkit-animation: ciclo-animacao 1s infinite;
+  animation: ciclo-animacao 1s infinite;
+}
+
+@-webkit-keyframes ciclo-animacao {
+  from {
+    opacity: 0.3;
+    animation-duration: 2s;
+  }
+
+  to {
+    opacity: 1;
+    animation-duration: 2s;
+  }
+}
+
+@keyframes ciclo-animacao {
+  from {
+    opacity: 0.3;
+    animation-duration: 2s;
+  }
+
+  to {
+    opacity: 1;
+    animation-duration: 2s;
+  }
+}

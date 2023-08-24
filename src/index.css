@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--cor-apoio-vinho-desbotado) var(--cor-cinza-7);
+}
+
+button {
+  cursor: pointer;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  background-color: #f8f8f9;
+  overflow-x: hidden;
+}
+
+input {
+  background-color: #ffffff;
+  color: black;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--cor-cinza-8);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--cor-apoio-vinho-desbotado);
+  border-radius: 20px;
+  border: 3px solid var(--cor-cinza-7);
+}
+
+.Toastify__toast {
+  background: var(--cor-apoio-petroleo-claro) !important;
+  color: var(--cor-apoio-petroleo) !important;
+  border-radius: 15px !important;
+}
+
+.Toastify__toast--error {
+  background: var(--cor-feedback-erro-claro) !important;
+  color: var(--cor-feedback-erro-escuro) !important;
+  border-radius: 15px !important;
+}
+
+.Toastify__toast--success {
+  background: var(--cor-feedback-sucesso-claro) !important;
+  color: var(--cor-feedback-sucesso-escuro) !important;
+  border-radius: 15px !important;
+}
+
+.Toastify__toast--warning {
+  background: var(--cor-feedback-atencao-claro) !important;
+  color: var(--cor-feedback-atencao-escuro) !important;
+  border-radius: 15px !important;
+}
+
+.Toastify__toast-body {
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-left: 1rem !important;
+}
+
+.Toastify__toast>button>svg {
+  display: none;
+}
+
+:root {
+  --cor-rosa: #da0175;
+  --cor-rosa-claro: #f5a8d0;
+  --cor-rosa-escuro: #75003b;
+  --cor-verde: #0e8750;
+  --cor-verde-claro: #acd9c5;
+  --cor-verde-escuro: #034a2a;
+  --cor-feedback-sucesso: #5482f6;
+  --cor-feedback-sucesso-claro: #c3d4fe;
+  --cor-feedback-sucesso-escuro: #243f80;
+  --cor-feedback-atencao: #ef8f00;
+  --cor-feedback-atencao-claro: #f5d9b0;
+  --cor-feedback-atencao-escuro: #cc7800;
+  --cor-feedback-erro: #e70000;
+  --cor-feedback-erro-claro: #F2D6D0;
+  --cor-feedback-erro-escuro: #ae1100;
+  --cor-feedback-busca-erro: #f48c8c;
+  --cor-feedback-busca-erro-claro: #f5bdb2;
+  --cor-apoio-vinho: #971d1d;
+  --cor-apoio-vinho-claro: #ffefef;
+  --cor-apoio-vinho-desbotado: #e8caca;
+  --cor-apoio-amarelo: #c5a605;
+  --cor-apoio-amarelo-claro: #fcf6dc;
+  --cor-apoio-amarelo-desbotado: #e3dec8;
+  --cor-apoio-petroleo: #1fa7af;
+  --cor-apoio-petroleo-claro: #eef6f6;
+  --cor-apoio-petroleo-desbotado: #d2dfe0;
+  --cor-cinza-1: #343447;
+  --cor-cinza-2: #3f3f55;
+  --cor-cinza-3: #747488;
+  --cor-cinza-4: #9b9bb2;
+  --cor-cinza-5: #c8c8d7;
+  --cor-cinza-6: #dedee9;
+  --cor-cinza-7: #f0f0f5;
+  --cor-cinza-8: #f8f8f9;
+  --cor-shadow-box: rgba(218, 1, 117, 0.05);
+  --font-nunito: "Nunito", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}

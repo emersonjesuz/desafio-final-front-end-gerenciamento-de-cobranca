@@ -1,0 +1,43 @@
+.container-do-pop-up-de-editar-e-sair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 6.5rem;
+  left: 87.6%;
+  width: 11rem;
+  height: 7rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.8rem;
+  box-shadow: 0rem 0.1rem 2rem rgba(0, 0, 0, 0.247);
+  z-index: 1;
+}
+
+.container-do-pop-up-de-editar-e-sair div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 2);
+}
+
+.container-do-pop-up-de-editar-e-sair div img {
+  cursor: pointer;
+}
+
+.seta-do-modal {
+  position: absolute;
+  top: -0.8rem;
+  left: 6.4rem;
+}
+
+@media (max-width: 1724px) {
+  .container-do-pop-up-de-editar-e-sair {
+    right: 4%;
+  }
+}
+
+@media (max-width: 1624px) {
+  .container-do-pop-up-de-editar-e-sair {
+    right: 2.5%;
+  }
+}

@@ -1,0 +1,85 @@
+.container-do-modal-deletar-cobranca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(2px);
+  z-index: 2;
+}
+
+.caixa-do-modal-deletar-cobranca {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 3rem;
+}
+
+.x-de-sair-do-modal-de-delecao {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.cabecalho-modal-deletar-cobranca {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 34px;
+}
+
+.cabecalho-modal-deletar-cobranca h2 {
+  color: #cc7800;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.cabecalho-modal-deletar-cobranca img {
+  width: 160px;
+  height: 160px;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.caixa-dos-botoes-deletar-cobranca {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  gap: 16px;
+}
+
+.caixa-dos-botoes-deletar-cobranca button {
+  width: 100px;
+  height: 24px;
+  border: none;
+  border-radius: 0.25rem;
+  transition: transform 0.1s;
+
+  font-family: Nunito, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.caixa-dos-botoes-deletar-cobranca button:hover {
+  transform: scale(1.2);
+}
+
+#botaoSim {
+  background-color: #acd9c5;
+  color: #034a2a;
+}
+
+#botaoNão {
+  background-color: #f2d6d0;
+  color: #ae1100;
+}

@@ -1,0 +1,57 @@
+.container-cadastro {
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.lista-de-acoes-do-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 35%;
+  height: 100%;
+
+  background-color: var(--cor-cinza-7);
+}
+
+.tamanho-da-caixa-da-lista-de-acoes {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 45%;
+}
+
+.caixa-da-lista-de-acoes {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 3rem;
+
+  width: 100%;
+  height: 23.2rem;
+}
+
+.formulario-do-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 65%;
+  height: 100%;
+}
+
+.container-formulario-do-cadastro {
+  width: 35%;
+  height: 80%;
+}
+
+.caixa-da-barra-de-etapa-do-cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  gap: 0.5rem;
+
+  height: 1rem;
+}

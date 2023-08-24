@@ -1,0 +1,37 @@
+.texto-da-lista-de-acoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.texto-da-lista-de-acoes div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.texto-da-lista-de-acoes div .texto-de-cima-de-cada-acao {
+  font-family: var(--font-montserrat);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: var(--cor-verde);
+}
+
+.texto-da-lista-de-acoes div p {
+  font-family: var(--font-nunito);
+
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-size: 1.8rem;
+  color: var(--cor-cinza-2);
+}

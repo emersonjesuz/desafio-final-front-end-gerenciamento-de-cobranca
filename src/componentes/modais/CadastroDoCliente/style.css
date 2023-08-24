@@ -1,0 +1,145 @@
+.modal-cadastro-cliente {
+    margin: auto;
+    right: -55%;
+    width: 30%;
+    height: 80%;
+    border-radius: 3rem;
+    border-style: none;
+    background-color: white;
+}
+
+.modal-backdrop-cadastro-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    z-index: 4;
+    backdrop-filter: blur(4px);
+    background-color: rgba(145, 154, 150, 0.3);
+}
+
+.conteudo-modal-cadastro-cliente {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 7%;
+    height: 100%;
+}
+
+.fechar-modal {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.icone-titulo {
+    display: flex;
+
+    align-items: center;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.icone-titulo h1 {
+    margin-left: 1rem;
+
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--cor-cinza-2);
+}
+
+.formulario-cadastro-cliente {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.linha-modal-cadastro-cliente {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.caixa-input {
+    width: 100%;
+}
+
+.caixa-input input {
+    width: 100%;
+    height: 3.5rem;
+    padding-left: 1rem;
+    border: 0.1rem solid var(--cor-apoio-petroleo-desbotado);
+    border-radius: 0.5rem;
+}
+
+.caixa-input label {
+    font-family: var(--font-nunito);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--cor-cinza-2);
+}
+
+.mensagem-erro {
+    color: var(--cor-feedback-erro);
+    font-family: var(--font-nunito);
+    font-size: 1rem;
+}
+
+.input-uf {
+    width: 30%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.linha-botoes {
+    margin-top: 5%;
+}
+
+.formulario-botao {
+    width: 100%;
+    height: 3rem;
+    border-radius: 1.3rem;
+    transition: transform 0.1s;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 1.5rem;
+}
+
+.formulario-botao:hover {
+    transform: scale(1.03);
+}
+
+.botao-cancelar {
+    border: solid 2px var(--cor-cinza-6);
+    background-color: var(--cor-cinza-8);
+
+    color: var(--cor-verde);
+}
+
+.botao-cadastrar {
+    border-style: none;
+
+    background-color: var(--cor-rosa);
+
+    color: var(--cor-cinza-8);
+}

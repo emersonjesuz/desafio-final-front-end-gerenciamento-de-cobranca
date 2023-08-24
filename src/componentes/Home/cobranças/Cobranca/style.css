@@ -1,0 +1,120 @@
+.registro-da-tabela-de-cobrancas {
+  display: flex;
+
+  height: 5rem;
+  width: 100%;
+  border-top: 0.1rem solid #eff0f6;
+  transition: background-color 0.3s;
+
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 5rem;
+
+  color: var(--cor-cinza-3);
+}
+
+.registro-da-tabela-de-cobrancas:hover {
+  background-color: var(--cor-cinza-8);
+}
+
+.registro-da-tabela-de-cobrancas td {
+  display: flex;
+  align-items: center;
+}
+
+.item-cobranca {
+  width: calc(100% / 7);
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.status-cobranca {
+  padding-left: 2.5rem;
+}
+
+.descricao-cobranca {
+  display: flex;
+
+  justify-content: space-between;
+  width: calc(calc(100% / 7) * 2);
+  white-space: nowrap;
+
+  text-align: left;
+}
+
+.descricao-detalhar-cliente {
+  width: 44%;
+  padding-left: 2rem;
+}
+
+.cobranca-texto {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  padding-left: 0.5rem;
+  font-family: var(--font-nunito);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: 0.005em;
+  color: #6e6e85;
+  cursor: pointer;
+}
+
+.botoes-cobranca {
+  height: 50%;
+}
+
+.botao-editar,
+.botao-excluir {
+  padding-left: 1.8rem;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.botao-editar:hover,
+.botao-excluir:hover {
+  transform: scale(1.2);
+}
+
+.botao-excluir {
+  padding-right: 1.5rem;
+}
+
+.cobranca-vencida,
+.cobranca-paga,
+.cobranca-pendente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 2rem;
+  width: 9rem;
+  padding: 0 0.7rem;
+  border-radius: 0.8rem;
+  margin-left: -2rem;
+
+  font-family: var(--font-nunito);
+
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cobranca-vencida {
+  background-color: var(--cor-apoio-vinho-claro);
+  color: var(--cor-apoio-vinho);
+}
+
+.cobranca-paga {
+  background-color: var(--cor-apoio-petroleo-claro);
+  color: var(--cor-apoio-petroleo);
+}
+
+.cobranca-pendente {
+  background-color: var(--cor-apoio-amarelo-claro);
+  color: var(--cor-apoio-amarelo);
+}

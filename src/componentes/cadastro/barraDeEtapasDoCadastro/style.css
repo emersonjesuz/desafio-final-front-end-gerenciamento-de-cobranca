@@ -1,0 +1,13 @@
+.caixa-da-barra-de-etapa-do-cadastro div {
+  width: calc(90% / 3);
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.caixa-da-barra-de-etapa-do-cadastro .entrou-na-etapa {
+  background-color: var(--cor-verde);
+}
+
+.caixa-da-barra-de-etapa-do-cadastro .saiu-da-etapa {
+  background-color: var(--cor-cinza-6);
+}

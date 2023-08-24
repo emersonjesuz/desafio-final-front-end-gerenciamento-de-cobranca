@@ -1,0 +1,35 @@
+.caixa-do-painel-quantidade-cobranca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5rem;
+  width: calc(100% - 6.4rem);
+}
+
+.painel-quantidade-cartao-de-cobrancas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+  height: 10%;
+}
+
+.painel-quantidade-cobranca {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+}
+
+.painel-quantidade-cliente {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+  height: 50%;
+}

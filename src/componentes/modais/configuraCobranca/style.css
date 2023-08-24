@@ -1,0 +1,250 @@
+.container-do-modal-cadastro-cobranca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+.caixa-do-modal-cadastro-cobranca {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  width: 40%;
+  height: 90%;
+  padding: 3rem 0;
+  background-color: white;
+  border-radius: 3rem;
+}
+
+.cabelho-modal-cadastro-cobranca {
+  display: flex;
+  align-items: end;
+  position: relative;
+  height: 8rem;
+  width: 80%;
+}
+
+.cabelho-modal-cadastro-cobranca h2 {
+  font-family: var(--font-montserrat);
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  letter-spacing: 0em;
+}
+
+.x-de-sair-do-modal {
+  position: absolute;
+  right: 0.1rem;
+  top: 1.5rem;
+  cursor: pointer;
+}
+
+.coluna-modal-cadastro-cobranca {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+}
+
+.caixa-do-nome-modal-cadastro-cobranca {
+  display: flex;
+
+  flex-direction: column;
+  width: 100%;
+  height: 6rem;
+}
+
+.caixa-do-nome-modal-cadastro-cobranca label {
+  font-family: Nunito, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  color: #3f3f55;
+}
+
+.caixa-do-nome-modal-cadastro-cobranca input {
+  width: 100%;
+  height: 100%;
+  padding-left: 1rem;
+  border: 0.1rem solid #d0d5dd;
+  border-radius: 0.8rem;
+}
+
+.caixa-da-descricao-modal-cadastro-cobranca {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 11rem;
+}
+
+.caixa-da-descricao-modal-cadastro-cobranca label {
+  font-family: Nunito, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  color: #3f3f55;
+}
+
+.caixa-da-descricao-modal-cadastro-cobranca input {
+  width: 100%;
+  height: 100%;
+  padding-left: 1.2rem;
+  padding-bottom: 4.2rem;
+  border: 0.1rem solid #d0d5dd;
+  background-color: white;
+  border-radius: 0.8rem;
+  font-family: Nunito, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+
+  color: #9b9bb2;
+}
+
+.caixa-da-descricao-modal-cadastro-cobranca textarea {
+  width: 100%;
+  height: 100%;
+  padding-left: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 4.2rem;
+  border: 0.1rem solid #d0d5dd;
+  background-color: white;
+  border-radius: 0.8rem;
+  font-family: Nunito, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  resize: none;
+  color: #9b9bb2;
+}
+
+.caixa-do-vencimento-e-valor-modal-cadastro-cobranca {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+}
+
+.caixa-do-vencimento-e-valor-modal-cadastro-cobranca div {
+  display: flex;
+  flex-direction: column;
+  width: calc(90% / 2);
+  height: 100%;
+}
+
+.caixa-do-vencimento-e-valor-modal-cadastro-cobranca div label {
+  font-family: Nunito, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  color: #3f3f55;
+}
+
+.caixa-do-vencimento-e-valor-modal-cadastro-cobranca div input {
+  width: 100%;
+  height: 4rem;
+  padding-left: 1.2rem;
+  border: 0.1rem solid #d0d5dd;
+  border-radius: 0.8rem;
+  font-family: Nunito, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+
+  color: #9b9bb2;
+}
+
+.erro-no-input {
+  font-family: Nunito, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  letter-spacing: 0px;
+  color: #e70000;
+}
+
+.caixa-do-status-modal-cadastro-cobranca {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.caixa-do-status-modal-cadastro-cobranca div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 5rem;
+  width: 100%;
+  padding-left: 2rem;
+  background-color: #f0f0f5;
+  border-radius: 1rem;
+}
+
+.caixa-do-status-modal-cadastro-cobranca div span {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #c8c8d7;
+  cursor: pointer;
+}
+
+.caixa-do-status-modal-cadastro-cobranca label {
+  font-family: Nunito, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  color: #3f3f55;
+}
+
+.caixa-dos-botoes-cadastro-cobranca {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 80%;
+  height: 5rem;
+  margin-top: 3rem;
+}
+
+.caixa-dos-botoes-cadastro-cobranca button {
+  width: calc(90% / 2);
+  height: 3.3rem;
+  transition: transform 0.1s;
+
+  font-family: Nunito, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0px;
+
+  border-radius: 1rem;
+  border: none;
+}
+
+.caixa-dos-botoes-cadastro-cobranca button:hover {
+  transform: scale(1.02);
+}
+
+#botaoAplicar {
+  background-color: #da0175;
+  color: #f8f8f9;
+}
+
+#botaoCancelar {
+  background-color: #dedee9;
+  color: #0e8750;
+}

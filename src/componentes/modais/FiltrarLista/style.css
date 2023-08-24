@@ -1,0 +1,124 @@
+.container-do-modal-de-reordenar-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 19rem;
+    right: 35%;
+    width: 28rem;
+    height: 33rem;
+
+    color: var(--cor-cinza-2);
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.247);
+}
+
+.seta-do-modal-reordenar {
+    position: absolute;
+    height: 5rem;
+    width: 4rem;
+    top: -3rem;
+    right: 1rem;
+}
+
+.opcoes-do-filtro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 83%;
+    width: 75%;
+}
+
+.opcoes-status,
+.opcoes-data {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--font-nunito);
+}
+
+.container-do-radio {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    gap: 1rem;
+    width: 100%;
+    font-weight: 400;
+    background-color: var(--cor-cinza-7);
+}
+
+.radio-status {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+}
+
+.estilizacao-do-radio,
+.bolha-confirmacao {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--cor-cinza-5);
+    cursor: pointer;
+}
+
+.input-data {
+    width: 100%;
+    height: 4rem;
+    padding: 0 1.2rem;
+    border-radius: 0.8rem;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-family: var(--font-nunito);
+
+    border: 0.2rem solid var(--cor-verde);
+    color: var(--cor-cinza-2);
+}
+
+.filtro-botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 7.5rem;
+    margin-top: 0.5rem;
+
+    font-family: var(--font-nunito);
+    font-weight: 400;
+}
+
+.filtro-cancelar,
+.filtro-aplicar {
+    width: 100%;
+    height: 47%;
+    border-radius: 1rem;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 1.5rem;
+}
+
+.filtro-cancelar {
+    border: solid 2px var(--cor-cinza-6);
+    background-color: var(--cor-cinza-8);
+
+    color: var(--cor-verde);
+}
+
+.filtro-aplicar {
+    border-style: none;
+
+    background-color: var(--cor-rosa);
+
+    color: var(--cor-cinza-8);
+}

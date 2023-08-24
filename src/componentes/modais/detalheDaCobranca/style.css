@@ -1,0 +1,205 @@
+.modal-detalhe-da-cobranca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+.modal-detalhe-da-cobranca .conteudo-modal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  width: 40%;
+  height: 70%;
+  padding: 3rem 0;
+  background-color: white;
+  border-radius: 3rem;
+}
+
+.icone-titulo-modal-detalhe-da-cobranca {
+  display: flex;
+  align-items: end;
+  position: relative;
+  height: 8rem;
+  width: 80%;
+}
+
+.icone-titulo-modal-detalhe-da-cobranca h1 {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  color: var(--cor-cinza-2);
+}
+
+.fechar-modal-detalhe-da-cobranca {
+  font-size: 5rem;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.formulario-modal-detalhe-da-cobranca {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 80%;
+}
+
+.caixa-input-modal-detalhe-da-cobranca {
+  width: 100%;
+}
+
+.caixa-input-modal-detalhe-da-cobranca input {
+  width: 100%;
+  height: 3.5rem;
+  font-family: var(--font-nunito);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  border: 0 none;
+  color: #3f3f55;
+}
+
+.caixa-input-modal-detalhe-da-cobranca label {
+  font-family: var(--font-nunito);
+  font-size: 1.4rem;
+  font-weight: 600;
+  list-style: 2rem;
+  color: var(--cor-cinza-2);
+}
+
+.linha-modal-detalhe-da-cobranca {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+  height: 10rem;
+}
+
+.caixa-da-descricao-modal-detalhe-da-cobranca {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 11rem;
+}
+
+.caixa-da-descricao-modal-detalhe-da-cobranca label {
+  font-family: var(--font-nunito);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  color: #3f3f55;
+}
+
+.caixa-da-descricao-modal-detalhe-da-cobranca input {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4.2rem;
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  border: 0 none;
+  color: #3f3f55;
+}
+
+.caixa-do-vencimento-e-valor-modal-detalhe-da-cobranca {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+}
+
+.caixa-do-vencimento-e-valor-modal-detalhe-da-cobranca div {
+  display: flex;
+  flex-direction: column;
+  width: calc(90% / 2);
+  height: 100%;
+}
+
+.caixa-do-vencimento-e-valor-modal-detalhe-da-cobranca div label {
+  font-family: var(--font-nunito);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  color: #3f3f55;
+}
+
+.caixa-do-vencimento-e-valor-modal-detalhe-da-cobranca div input {
+  width: 100%;
+  height: 4rem;
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  border: 0 none;
+  color: #3f3f55;
+  text-justify: distribute;
+}
+
+.caixa-descricao-detalhe-de-cobranca {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  font-family: var(--font-nunito);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.detalhe-cobranca-vencida,
+.detalhe-cobranca-paga,
+.detalhe-cobranca-pendente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 2rem;
+  width: 9rem;
+  padding: 0 0.7rem;
+  border-radius: 0.8rem;
+  margin-left: -2rem;
+
+  font-family: var(--font-nunito);
+
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.detalhe-cobranca-vencida {
+  background-color: var(--cor-apoio-vinho-claro);
+  color: var(--cor-apoio-vinho);
+}
+
+.detalhe-cobranca-paga {
+  background-color: var(--cor-apoio-petroleo-claro);
+  color: var(--cor-apoio-petroleo);
+}
+
+.detalhe-cobranca-pendente {
+  background-color: var(--cor-apoio-amarelo-claro);
+  color: var(--cor-apoio-amarelo);
+}
+
+#status {
+  margin-left: 0rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  max-height: 100vh;
+  background-color: var(--cor-cinza-8);
+  position: relative;
+  padding-right: 1rem;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 2rem;
+  width: 90%;
+  padding-bottom: 2rem;
+}
+
+.caixa-do-cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: calc(100% - 6.4rem);
+  min-height: 10rem;
+}
+
+.divisor-cabecalho {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  position: fixed;
+  width: 88vw;
+  height: 0.1rem;
+  margin-top: 9.5rem;
+  z-index: 1;
+
+  background-color: var(--cor-verde-claro);
+}
